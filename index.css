@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    background-image: url('header-bg.jpg');
+    /* Add your background image */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input,
+.search-box button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+}
+
+.search-box button {
+    background: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.fleet {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    border: 1px solid white;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.car img {
+    width: 100%;
+}
+
+.price {
+    font-weight: bold;
+    color: red;
+}
+
+.advantages {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.advantage-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.advantage {
+    background: white;
+    padding: 20px;
+    width: 200px;
+}
+
+.highlight {
+    background: #555;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    /* Corrected 'colour' to 'color' */
+}
+.car button{
+    background-color: #e67e22;
+    color:white;
+    border: 2px;
+    padding: 3px;
+}
